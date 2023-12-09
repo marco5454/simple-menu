@@ -1,0 +1,99 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #994d1c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.header-wrapper .card-container {
+  max-width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color: #6b240c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .title-menu h1 {
+  font-size: 3rem;
+  color: #f5cca0;
+  font-family: cursive;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.card-wrapper {
+  width: 30%;
+  height: 30%;
+  background-color: #994d1c;
+  box-shadow: 2px 4px 10px 5px #e48f45;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 80px;
+  border-radius: 20px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.card-wrapper:hover {
+  width: 32%;
+  height: 32%;
+}
+
+.card-wrapper img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.card-wrapper .info {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.card-wrapper .info .menu-name {
+  font-size: 2rem;
+  font-family: cursive, sans-serif;
+  color: #f5cca0;
+  letter-spacing: 2px;
+  border-bottom: 5px dashed #6b240c;
+}
+
+.card-wrapper .info .menu-desc {
+  font-size: 1.2rem;
+  color: #f5cca0;
+  font-family: cursive, sans-serif;
+  text-align: justify;
+}
+
+.card-wrapper .info .price {
+  font-size: 2rem;
+  color: #6b240c;
+  font-family: cursive, sans-serif;
+}
